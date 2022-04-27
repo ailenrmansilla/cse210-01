@@ -1,7 +1,5 @@
 # Ailen Mansilla CSE 210 - 01 Week 2
 
-from pyparsing import empty
-
 
 line1 = [1,2,3]
 line2 = [4,5,6]
