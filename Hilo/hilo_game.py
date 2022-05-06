@@ -11,13 +11,14 @@ class Player:
     def __init__(self):
         self.points = 300
         self.playing = True
+
+    def start_game(self):
+        pass
     
 class Card:
-
     def __init__(self): 
         self.number = random.randint(1,13)
-    def new_card(self):
-        self.number = random.randint(1,13)
+
 
 player = Player()
 card = Card()
@@ -26,7 +27,7 @@ while player.playing == True:
     print(f'----Your card is {card.number}----')
     print(f'Time to guess!')
     guess = input('Higher or lower? (Enter H or L): ').upper
-    card.new_card()
+    card = Card()
     new_number = card.number
     #fix the conditionals
     if new_number >= first_number and guess == 'H':
