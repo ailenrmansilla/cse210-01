@@ -1,29 +1,19 @@
-# Hilo description
+# Project: Hilo game
 
 ## Getting Started
 ---
-Make sure you have Python 3.8.0 or newer installed and running on your machine. Open a terminal and 
-browse to the project's root folder. Start the program by running the following command.
+Make sure you have Python 3.8.0 or newer installed and running on your machine. 
 ```
 python3 hilo_game
 ```
 You can also run the program from an IDE like Visual Studio Code. Start your IDE and open the 
-project folder. Select the main module inside the dice folder and click the "run" button.
-
-## Project Structure
----
-The project files and folders are organized as follows:
-```
-root                    (project root folder)
-+-- Hilo                (source code for game)
-  +-- hilo_game.py      (specific classes)
-  +-- README.md           (general info)
-```
+project folder. Select the hilo_game.py file inside the Hilo folder and click the "run" button.
 
 ## Required Technologies
 ---
 * Python 3.8.0
+* Library: random
 
-## Authors
+## Author
 ---
 * Ailen Mansilla (man22007@byui.edu)
